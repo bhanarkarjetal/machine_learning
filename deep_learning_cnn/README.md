@@ -17,19 +17,19 @@ The dataset is taken from Kaggle which consists of images for digits in sign lan
 
 1. Generated a count plot for label distribution in the entire dataset
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/digit_counts.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/digit_counts.png)
 
 3. Plotted the first and last sample to sanity check label alignment.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/sample_images.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/sample_images.png)
 
 3. Generated one sample image of each label.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/label_images.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/label_images.png)
 
 4. Visualized intra-class variation: 10 random images for a single digit.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/sample_single_label_images.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/sample_single_label_images.png)
 
 ## Training model on three variations of deep learning
 
@@ -62,11 +62,11 @@ The dataset is taken from Kaggle which consists of images for digits in sign lan
   - Train accuracy: 91.28 %
   - Best performing configuration; balanced bias–variance.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/accuracy_1.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/accuracy_1.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/loss_1.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/loss_1.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/predictions_1.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/predictions_1.png)
 
 **Model 2 – Same CNN with Data Augmentation Pipeline**
   - Test loss: 2.15
@@ -75,11 +75,11 @@ The dataset is taken from Kaggle which consists of images for digits in sign lan
   - Train accuracy: 24.72 %
   - Heavy augmentation without re-tuning hyperparameters led to underfitting and a sharp accuracy drop.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/accuracy_augmentation_2.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/accuracy_augmentation_2.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/loss_augmentation_2.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/loss_augmentation_2.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/predictions_2.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/predictions_2.png)
 
 **Model 3 – All Conv (Stride 2) Network, No Pooling/Dropout**
   - Test loss: 1.31
@@ -88,11 +88,11 @@ The dataset is taken from Kaggle which consists of images for digits in sign lan
   - Train accuracy: 95.45 %
   - High train accuracy vs. lower test accuracy indicates over-fitting despite larger capacity.
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/accuracy_3.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/accuracy_3.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/loss_3.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/loss_3.png)
 
-![alt text](https://github.com/bhanarkarjetal/deep_learning_cnn/blob/main/predictions_3.png)
+![alt text](https://github.com/bhanarkarjetal/machine_learning/blob/main/deep_learning_cnn/predictions_3.png)
 
 ## Model recommendation
 * Given the observed metrics, Model 1 (the baseline CNN), which combines MaxPooling and Dropout, should be adopted as the production model. It delivers the highest test set accuracy (91.3 %) with a low, matching train and test loss, indicating a healthy balance between bias and variance. 
