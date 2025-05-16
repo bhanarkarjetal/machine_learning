@@ -1,6 +1,6 @@
 # Machine Learning Classification Projects
 
-Welcome to my **Machine Learning Classification** repository! This repository showcases various supervised machine learning classification projects that I have worked on. Each project involves real-world datasets, different classification algorithms, and detailed evaluations.
+Welcome to my **Machine Learning Classification** repository! This repository showcases various machine learning classification projects that I have worked on. Each project involves real-world datasets, different classification algorithms, and detailed evaluations.
 
 ---
 
