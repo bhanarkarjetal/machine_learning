@@ -6,7 +6,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
 
 1. **Deep Learning:** CNN for Hand Pose Digit Recognition
    A deep learning pipeline using Convolutional Neural Networks to classify static images of hand gestures representing digits (0–9).
-   ### **Data:** NumPy image arrays from Kaggle
+   **Data:** NumPy image arrays from Kaggle
      
    ### **Key steps:**
    - Data exploration & preprocessing (normalization, augmentation, reshaping).
