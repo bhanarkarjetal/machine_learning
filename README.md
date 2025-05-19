@@ -30,6 +30,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
 
    ### **Projects:**
    | Project Name | Description | Algorithms Used | Key Results |
+   |--------------|-------------|-----------------|-------------|
    | Loan Approval Classification	| Predict loan status using demographic & financial features | Logistic Regression, Decision Tree, Random Forest	| Best: Decision Tree |
    | Customer Segmentation Classification	| Segment users and identify churn | K-Means, Agglomerative Clustering, PCA, DBSCAN	| Best: K-Means with PCA |
 
@@ -42,7 +43,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
    ### **Tools and Libraries:**
    - `Python`, `Jupyter`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
-3. **Machine Learning Regression Projects:**
+4. **Machine Learning Regression Projects:**
    Projects applying regression techniques to predict continuous target variables
    
    ### **Projects:**
