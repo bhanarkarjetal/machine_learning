@@ -41,6 +41,7 @@ This project applies unsupervised machine learning techniques to segment custome
 ## Result Summary:
 
 |Model                    |  Silhouette Score|
+|-------------------------|------------------|
 |K-Means                  |  0.20            |
 |Agglomerative Clustering |  0.32            |
 |K-Means with PCA         |  0.40            |
