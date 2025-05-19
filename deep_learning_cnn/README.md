@@ -1,4 +1,4 @@
-# Deep learning final project:
+# Convolution Neural Network:
 
 ## Aim:
 The goal is to build a vision pipeline that can read still images of hand pose signs for the digits 0 – 9 and classify them correctly.
