@@ -4,48 +4,35 @@ Welcome to my **Machine Learning Classification** repository! This repository sh
 
 ---
 
-## Repository Structure
-
-This repository is organized as follows:
-
-- **`project_name/`**: Each classification project is stored in its own folder.
-  - `data/`: Contains the dataset(s) used in the project.
-  - `notebooks/`: Jupyter notebooks with detailed data analysis, preprocessing, and modeling steps.
-  - `results/`: Contains metrics, plots, and summaries of the project.
-  - `README.md`: Project-specific documentation.
-
----
-
 ## Key Features
 
 1. **Diverse Classification Projects**:
    - Binary and multi-class classification problems.
+   - Supervised and Unsupervised model
    - Real-world datasets with varied complexity.
 
 2. **Algorithms Used**:
    - Logistic Regression
    - Decision Tree Classifier
    - Random Forest Classifier
-   - Gradient Boosting (XGBoost, LightGBM, CatBoost)
-   - Support Vector Machines (SVM)
-   - K-Nearest Neighbors (KNN)
+   - K-Means
+   - Agglonerative Clustering
+   - DBSCAN (Density-Based Spatial Clustering Application with Noise)
+   - PCA (Principal Component Analysis)
 
 3. **Evaluation Metrics**:
    - Accuracy, Precision, Recall, F1-Score
    - ROC-AUC Score
    - Confusion Matrix
-   - Cross-Validation Scores
+   - Silhouette Score
 
-4. **Feature Engineering**:
+4. Data Preprocessing:
    - Handling missing values.
    - Encoding categorical features (e.g., one-hot, label encoding).
    - Scaling and normalization of numerical features.
    - Feature selection and importance analysis.
-
-5. **Handling Imbalanced Data**:
-   - Techniques such as SMOTE, ADASYN, and undersampling/oversampling.
-   - Stratified sampling for train-test splits.
-
+   - Hnadling Imbalanced Data
+  
 ---
 
 ## Projects
@@ -53,6 +40,7 @@ This repository is organized as follows:
 | Project Name               | Description                                                                 | Algorithms Used              | Key Results |
 |----------------------------|-----------------------------------------------------------------------------|------------------------------|-------------|
 | Loan Approval Classification | Predict loan approval status based on demographic and financial features   | Logistic Regression, Decision Tree, Random Forest | Best model: Decision Tree |
+| Customer Segmentation Classificaition| Cluster dataset into two labels to classify churning of customers| K-Means, Agglomerative Clustering, K-Means with PCA, DBSCAN| Best model: K-Means with PCA|
 
 ---
 
