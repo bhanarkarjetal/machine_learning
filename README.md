@@ -47,6 +47,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
    
    ### **Projects:**
    | Project Name | Description | Techniques Used | Evaluation |
+   |--------------|-------------|-----------------|------------|
    | Mobile price prediction	| Predict mobile prices using hardware specs (RAM, CPU, etc.)	 | Log/Sqrt/Box-Cox Transformations, Polynomial Features	| MSE, R²|
    | Stock Price Prediction	| Forecast stock closing prices using historical price & volume data | Scaling, Polynomial Features (deg 2), Lasso, Ridge Regression		| MSE, R² |
 
