@@ -4,7 +4,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
 
 ## **Project Summaries**
 
-1. **Deep Learning:** CNN for Hand Pose Digit Recognition
+1. ## **Deep Learning:** CNN for Hand Pose Digit Recognition
    A deep learning pipeline using Convolutional Neural Networks to classify static images of hand gestures representing digits (0–9).
    **Data:** NumPy image arrays from Kaggle
      
@@ -25,7 +25,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
      - Transfer learning
      - Advanced regularization
 
-2. **Machine Learning Classification Projects**
+2. ## **Machine Learning Classification Projects**
    Projects focused on both supervised and unsupervised classification tasks using real-world datasets.
 
    ### **Projects:**
@@ -43,7 +43,7 @@ Welcome to my Machine Learning repository! This collection contains diverse proj
    ### **Tools and Libraries:**
    - `Python`, `Jupyter`, `pandas`, `numpy`, `matplotlib`, `seaborn`, `scikit-learn`
 
-4. **Machine Learning Regression Projects:**
+3. ## **Machine Learning Regression Projects:**
    Projects applying regression techniques to predict continuous target variables
    
    ### **Projects:**
